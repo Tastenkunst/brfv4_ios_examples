@@ -17,7 +17,7 @@
 		6770ED6E1E85589A00FC1F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6770ED6C1E85589A00FC1F2A /* Main.storyboard */; };
 		6770ED701E85589A00FC1F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6770ED6F1E85589A00FC1F2A /* Assets.xcassets */; };
 		6770ED731E85589A00FC1F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6770ED711E85589A00FC1F2A /* LaunchScreen.storyboard */; };
-		67B30E1C1EF6616400349AE9 /* BRFv4_IOS_trial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B30E1B1EF6616400349AE9 /* BRFv4_IOS_trial.a */; };
+		67C6CFBB1FB46BB9004BEDB3 /* BRFv4_IOS_trial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C6CFBA1FB46BB8004BEDB3 /* BRFv4_IOS_trial.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		6770ED6F1E85589A00FC1F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6770ED721E85589A00FC1F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6770ED741E85589A00FC1F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67B30E1B1EF6616400349AE9 /* BRFv4_IOS_trial.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = BRFv4_IOS_trial.a; sourceTree = "<group>"; };
+		67C6CFBA1FB46BB8004BEDB3 /* BRFv4_IOS_trial.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = BRFv4_IOS_trial.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67334D651E926E4500EED6B3 /* CoreMedia.framework in Frameworks */,
-				67B30E1C1EF6616400349AE9 /* BRFv4_IOS_trial.a in Frameworks */,
+				67C6CFBB1FB46BB9004BEDB3 /* BRFv4_IOS_trial.a in Frameworks */,
 				67334D631E926E2300EED6B3 /* AVFoundation.framework in Frameworks */,
 				67334D611E926E0900EED6B3 /* libz.tbd in Frameworks */,
 			);
@@ -83,7 +83,7 @@
 		6770ED621E85589A00FC1F2A /* brfv4_ios_examples */ = {
 			isa = PBXGroup;
 			children = (
-				67B30E1B1EF6616400349AE9 /* BRFv4_IOS_trial.a */,
+				67C6CFBA1FB46BB8004BEDB3 /* BRFv4_IOS_trial.a */,
 				67334D5B1E92688E00EED6B3 /* brfv4 */,
 				6770ED661E85589A00FC1F2A /* AppDelegate.h */,
 				6770ED671E85589A00FC1F2A /* AppDelegate.m */,

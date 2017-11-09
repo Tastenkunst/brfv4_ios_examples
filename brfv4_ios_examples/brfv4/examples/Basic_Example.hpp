@@ -69,6 +69,7 @@ public: void init(unsigned int width, unsigned int height, brf::ImageDataType ty
 		initCurrentExample(*_brfManager, _brfImageRoi);
 		_initialized = true;
 	};
+
 	_brfManager->init(&_bmd, &_brfImageRoi, &_appId);
 }
 
