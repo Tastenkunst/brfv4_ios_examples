@@ -17,7 +17,7 @@
 		6770ED6E1E85589A00FC1F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6770ED6C1E85589A00FC1F2A /* Main.storyboard */; };
 		6770ED701E85589A00FC1F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6770ED6F1E85589A00FC1F2A /* Assets.xcassets */; };
 		6770ED731E85589A00FC1F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6770ED711E85589A00FC1F2A /* LaunchScreen.storyboard */; };
-		67D6872D20F730B000A3CA65 /* BRFv4_IOS_TK110718_v4.1.0_trial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D6872C20F730B000A3CA65 /* BRFv4_IOS_TK110718_v4.1.0_trial.a */; };
+		67B1067E21805AC30035C24B /* BRFv4_IOS_TK241018_v4.1.0_trial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B1067D21805AC30035C24B /* BRFv4_IOS_TK241018_v4.1.0_trial.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		6770ED6F1E85589A00FC1F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6770ED721E85589A00FC1F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6770ED741E85589A00FC1F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67D6872C20F730B000A3CA65 /* BRFv4_IOS_TK110718_v4.1.0_trial.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = BRFv4_IOS_TK110718_v4.1.0_trial.a; sourceTree = "<group>"; };
+		67B1067D21805AC30035C24B /* BRFv4_IOS_TK241018_v4.1.0_trial.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = BRFv4_IOS_TK241018_v4.1.0_trial.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +44,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				67334D651E926E4500EED6B3 /* CoreMedia.framework in Frameworks */,
-				67D6872D20F730B000A3CA65 /* BRFv4_IOS_TK110718_v4.1.0_trial.a in Frameworks */,
 				67334D631E926E2300EED6B3 /* AVFoundation.framework in Frameworks */,
 				67334D611E926E0900EED6B3 /* libz.tbd in Frameworks */,
+				67B1067E21805AC30035C24B /* BRFv4_IOS_TK241018_v4.1.0_trial.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 		6770ED621E85589A00FC1F2A /* brfv4_ios_examples */ = {
 			isa = PBXGroup;
 			children = (
-				67D6872C20F730B000A3CA65 /* BRFv4_IOS_TK110718_v4.1.0_trial.a */,
+				67B1067D21805AC30035C24B /* BRFv4_IOS_TK241018_v4.1.0_trial.a */,
 				67334D5B1E92688E00EED6B3 /* brfv4 */,
 				6770ED661E85589A00FC1F2A /* AppDelegate.h */,
 				6770ED671E85589A00FC1F2A /* AppDelegate.m */,
@@ -132,7 +132,7 @@
 		6770ED581E85589A00FC1F2A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Tastenkunst GmbH";
 				TargetAttributes = {
 					6770ED5F1E85589A00FC1F2A = {
@@ -216,15 +216,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -264,15 +272,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -309,6 +325,7 @@
 				DEVELOPMENT_TEAM = 4WY629CFK7;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				INFOPLIST_FILE = brfv4_ios_examples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -335,6 +352,7 @@
 				DEVELOPMENT_TEAM = 4WY629CFK7;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				INFOPLIST_FILE = brfv4_ios_examples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
