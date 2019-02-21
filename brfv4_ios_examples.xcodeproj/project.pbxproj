@@ -17,7 +17,7 @@
 		6770ED6E1E85589A00FC1F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6770ED6C1E85589A00FC1F2A /* Main.storyboard */; };
 		6770ED701E85589A00FC1F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6770ED6F1E85589A00FC1F2A /* Assets.xcassets */; };
 		6770ED731E85589A00FC1F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6770ED711E85589A00FC1F2A /* LaunchScreen.storyboard */; };
-		67B1067E21805AC30035C24B /* BRFv4_IOS_TK241018_v4.1.0_trial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B1067D21805AC30035C24B /* BRFv4_IOS_TK241018_v4.1.0_trial.a */; };
+		67D64A3C221EA2E700BBB44A /* BRFv4_IOS_TK210219_v4.2.0_trial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D64A3B221EA2E700BBB44A /* BRFv4_IOS_TK210219_v4.2.0_trial.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +25,7 @@
 		67334D601E926E0900EED6B3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		67334D621E926E2300EED6B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		67334D641E926E4500EED6B3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		676FAAE92217154200C20FCA /* BRFv4_IOS_BB180517_v4.2.0_commercial.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = BRFv4_IOS_BB180517_v4.2.0_commercial.a; path = brfv4_ios_examples/BRFv4_IOS_BB180517_v4.2.0_commercial.a; sourceTree = "<group>"; };
 		6770ED601E85589A00FC1F2A /* brfv4_ios_examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brfv4_ios_examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6770ED641E85589A00FC1F2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6770ED661E85589A00FC1F2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		6770ED721E85589A00FC1F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6770ED741E85589A00FC1F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67B1067D21805AC30035C24B /* BRFv4_IOS_TK241018_v4.1.0_trial.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = BRFv4_IOS_TK241018_v4.1.0_trial.a; sourceTree = "<group>"; };
+		67D64A3B221EA2E700BBB44A /* BRFv4_IOS_TK210219_v4.2.0_trial.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = BRFv4_IOS_TK210219_v4.2.0_trial.a; path = brfv4_ios_examples/BRFv4_IOS_TK210219_v4.2.0_trial.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,10 +45,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D64A3C221EA2E700BBB44A /* BRFv4_IOS_TK210219_v4.2.0_trial.a in Frameworks */,
 				67334D651E926E4500EED6B3 /* CoreMedia.framework in Frameworks */,
 				67334D631E926E2300EED6B3 /* AVFoundation.framework in Frameworks */,
 				67334D611E926E0900EED6B3 /* libz.tbd in Frameworks */,
-				67B1067E21805AC30035C24B /* BRFv4_IOS_TK241018_v4.1.0_trial.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +58,8 @@
 		67334D5F1E926E0900EED6B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				67D64A3B221EA2E700BBB44A /* BRFv4_IOS_TK210219_v4.2.0_trial.a */,
+				676FAAE92217154200C20FCA /* BRFv4_IOS_BB180517_v4.2.0_commercial.a */,
 				67334D641E926E4500EED6B3 /* CoreMedia.framework */,
 				67334D621E926E2300EED6B3 /* AVFoundation.framework */,
 				67334D601E926E0900EED6B3 /* libz.tbd */,
